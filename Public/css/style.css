@@ -5,13 +5,15 @@ body{
     font-family: 'roboto', sans-serif;
 }
 
+/* nav bar */
+
 .navBar{
     width: 100%;
     height: 60px;
     position: fixed;
     top: 0;
     z-index: 9;
-    background: #000;
+    background: none;
     padding: 0 2.5vw;
     display: flex;
     align-items: center;
@@ -50,4 +52,17 @@ body{
 .joinBtn{
     background: #dd0e15;
     border-color: #dd0e15;
+}
+
+/* main */
+
+.main{
+    position: relative;
+    margin-top: 60px;
+    width: 100%;
+    padding: 20px 2.5vw;
+    color: white;
+    background-image: url("../images/BackgroundTest.jpg");
+    background-size: cover;
+    background-position: center;
 }
