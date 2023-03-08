@@ -1,0 +1,11 @@
+/* uma vez que cada navegador adiciona automaticamente seus proprios detalhes de estilizacao,
+foi criado o arquivo reset.css para que em qualquer navegador o projeto possa partir de um mesmo ponto */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
